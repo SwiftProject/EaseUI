@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0AE1E41D6582DA002E5777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE1E31D6582DA002E5777 /* AppDelegate.swift */; };
+		9B0AE1E61D6582DA002E5777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE1E51D6582DA002E5777 /* ViewController.swift */; };
+		9B0AE1E91D6582DA002E5777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0AE1E71D6582DA002E5777 /* Main.storyboard */; };
+		9B0AE1EC1D6582DA002E5777 /* EaseUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE1EA1D6582DA002E5777 /* EaseUI.xcdatamodeld */; };
+		9B0AE1EE1D6582DA002E5777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0AE1ED1D6582DA002E5777 /* Assets.xcassets */; };
+		9B0AE1F11D6582DA002E5777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0AE1EF1D6582DA002E5777 /* LaunchScreen.storyboard */; };
+		9B0AE1FC1D6582DA002E5777 /* EaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE1FB1D6582DA002E5777 /* EaseUITests.swift */; };
+		9B0AE2071D6582DA002E5777 /* EaseUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE2061D6582DA002E5777 /* EaseUIUITests.swift */; };
+		9B0AE24B1D65852B002E5777 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE24A1D65852B002E5777 /* ChatViewController.swift */; };
+		9B0AE24D1D65854A002E5777 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE24C1D65854A002E5777 /* MineViewController.swift */; };
+		9B0AE24F1D658657002E5777 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE24E1D658657002E5777 /* libsqlite3.tbd */; };
+		9B0AE2511D65865F002E5777 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2501D65865F002E5777 /* libstdc++.6.0.9.tbd */; };
+		9B0AE2531D658666002E5777 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2521D658666002E5777 /* libz.tbd */; };
+		9B0AE2551D658671002E5777 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2541D658671002E5777 /* libc++.tbd */; };
+		9B0AE2571D658677002E5777 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2561D658677002E5777 /* ImageIO.framework */; };
+		9B0AE2591D658680002E5777 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2581D658680002E5777 /* MobileCoreServices.framework */; };
+		9B0AE25B1D658687002E5777 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE25A1D658687002E5777 /* AVFoundation.framework */; };
+		9B0AE25D1D658691002E5777 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE25C1D658691002E5777 /* AudioToolbox.framework */; };
+		9B0AE25F1D658699002E5777 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE25E1D658699002E5777 /* CoreMedia.framework */; };
+		9B0AE2631D658725002E5777 /* SdkKeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE2621D658725002E5777 /* SdkKeyConstants.swift */; };
+		9B0AE2961D6589CD002E5777 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2921D6589CD002E5777 /* libcrypto.a */; };
+		9B0AE2971D6589CD002E5777 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2931D6589CD002E5777 /* libcurl.a */; };
+		9B0AE2981D6589CD002E5777 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2941D6589CD002E5777 /* libssl.a */; };
+		9B0AE2991D6589CD002E5777 /* libHyphenateSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0AE2951D6589CD002E5777 /* libHyphenateSDK.a */; };
+		9B0AE29D1D658CD4002E5777 /* AppDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0AE29C1D658CD4002E5777 /* AppDelegateExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B0AE1F81D6582DA002E5777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0AE1D81D6582DA002E5777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0AE1DF1D6582DA002E5777;
+			remoteInfo = EaseUI;
+		};
+		9B0AE2031D6582DA002E5777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0AE1D81D6582DA002E5777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0AE1DF1D6582DA002E5777;
+			remoteInfo = EaseUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0AE1E01D6582DA002E5777 /* EaseUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0AE1E31D6582DA002E5777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B0AE1E51D6582DA002E5777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B0AE1E81D6582DA002E5777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B0AE1EB1D6582DA002E5777 /* EaseUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EaseUI.xcdatamodel; sourceTree = "<group>"; };
+		9B0AE1ED1D6582DA002E5777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B0AE1F01D6582DA002E5777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B0AE1F21D6582DA002E5777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0AE1F71D6582DA002E5777 /* EaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0AE1FB1D6582DA002E5777 /* EaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseUITests.swift; sourceTree = "<group>"; };
+		9B0AE1FD1D6582DA002E5777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0AE2021D6582DA002E5777 /* EaseUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0AE2061D6582DA002E5777 /* EaseUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseUIUITests.swift; sourceTree = "<group>"; };
+		9B0AE2081D6582DA002E5777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0AE24A1D65852B002E5777 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9B0AE24C1D65854A002E5777 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		9B0AE24E1D658657002E5777 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9B0AE2501D65865F002E5777 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9B0AE2521D658666002E5777 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9B0AE2541D658671002E5777 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9B0AE2561D658677002E5777 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9B0AE2581D658680002E5777 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9B0AE25A1D658687002E5777 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B0AE25C1D658691002E5777 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9B0AE25E1D658699002E5777 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9B0AE2621D658725002E5777 /* SdkKeyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkKeyConstants.swift; sourceTree = "<group>"; };
+		9B0AE2641D65887B002E5777 /* EaseUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EaseUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B0AE26A1D6589CD002E5777 /* EMCallLocalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallLocalView.h; sourceTree = "<group>"; };
+		9B0AE26B1D6589CD002E5777 /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
+		9B0AE26C1D6589CD002E5777 /* EMCallRemoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallRemoteView.h; sourceTree = "<group>"; };
+		9B0AE26D1D6589CD002E5777 /* EMCallSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallSession.h; sourceTree = "<group>"; };
+		9B0AE26E1D6589CD002E5777 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		9B0AE26F1D6589CD002E5777 /* EMChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroom.h; sourceTree = "<group>"; };
+		9B0AE2701D6589CD002E5777 /* EMChatroomManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroomManagerDelegate.h; sourceTree = "<group>"; };
+		9B0AE2711D6589CD002E5777 /* EMClient+Call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMClient+Call.h"; sourceTree = "<group>"; };
+		9B0AE2721D6589CD002E5777 /* EMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMClient.h; sourceTree = "<group>"; };
+		9B0AE2731D6589CD002E5777 /* EMClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMClientDelegate.h; sourceTree = "<group>"; };
+		9B0AE2741D6589CD002E5777 /* EMCmdMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCmdMessageBody.h; sourceTree = "<group>"; };
+		9B0AE2751D6589CD002E5777 /* EMContactManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMContactManagerDelegate.h; sourceTree = "<group>"; };
+		9B0AE2761D6589CD002E5777 /* EMConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConversation.h; sourceTree = "<group>"; };
+		9B0AE2771D6589CD002E5777 /* EMCursorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCursorResult.h; sourceTree = "<group>"; };
+		9B0AE2781D6589CD002E5777 /* EMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMError.h; sourceTree = "<group>"; };
+		9B0AE2791D6589CD002E5777 /* EMErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMErrorCode.h; sourceTree = "<group>"; };
+		9B0AE27A1D6589CD002E5777 /* EMFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileMessageBody.h; sourceTree = "<group>"; };
+		9B0AE27B1D6589CD002E5777 /* EMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroup.h; sourceTree = "<group>"; };
+		9B0AE27C1D6589CD002E5777 /* EMGroupManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupManagerDelegate.h; sourceTree = "<group>"; };
+		9B0AE27D1D6589CD002E5777 /* EMGroupOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupOptions.h; sourceTree = "<group>"; };
+		9B0AE27E1D6589CD002E5777 /* EMImageMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageMessageBody.h; sourceTree = "<group>"; };
+		9B0AE27F1D6589CD002E5777 /* EMLocationMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLocationMessageBody.h; sourceTree = "<group>"; };
+		9B0AE2801D6589CD002E5777 /* EMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessage.h; sourceTree = "<group>"; };
+		9B0AE2811D6589CD002E5777 /* EMMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessageBody.h; sourceTree = "<group>"; };
+		9B0AE2821D6589CD002E5777 /* EMOptions+PrivateDeploy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMOptions+PrivateDeploy.h"; sourceTree = "<group>"; };
+		9B0AE2831D6589CD002E5777 /* EMOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOptions.h; sourceTree = "<group>"; };
+		9B0AE2841D6589CD002E5777 /* EMPushOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPushOptions.h; sourceTree = "<group>"; };
+		9B0AE2851D6589CD002E5777 /* EMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDK.h; sourceTree = "<group>"; };
+		9B0AE2861D6589CD002E5777 /* EMSDKFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDKFull.h; sourceTree = "<group>"; };
+		9B0AE2871D6589CD002E5777 /* EMTextMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTextMessageBody.h; sourceTree = "<group>"; };
+		9B0AE2881D6589CD002E5777 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVideoMessageBody.h; sourceTree = "<group>"; };
+		9B0AE2891D6589CD002E5777 /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		9B0AE28A1D6589CD002E5777 /* IEMCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMCallManager.h; sourceTree = "<group>"; };
+		9B0AE28B1D6589CD002E5777 /* IEMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatManager.h; sourceTree = "<group>"; };
+		9B0AE28C1D6589CD002E5777 /* IEMChatroomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatroomManager.h; sourceTree = "<group>"; };
+		9B0AE28D1D6589CD002E5777 /* IEMContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMContactManager.h; sourceTree = "<group>"; };
+		9B0AE28E1D6589CD002E5777 /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
+		9B0AE28F1D6589CD002E5777 /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
+		9B0AE2921D6589CD002E5777 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		9B0AE2931D6589CD002E5777 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		9B0AE2941D6589CD002E5777 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		9B0AE2951D6589CD002E5777 /* libHyphenateSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateSDK.a; sourceTree = "<group>"; };
+		9B0AE29C1D658CD4002E5777 /* AppDelegateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0AE1DD1D6582DA002E5777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0AE25F1D658699002E5777 /* CoreMedia.framework in Frameworks */,
+				9B0AE25D1D658691002E5777 /* AudioToolbox.framework in Frameworks */,
+				9B0AE25B1D658687002E5777 /* AVFoundation.framework in Frameworks */,
+				9B0AE2591D658680002E5777 /* MobileCoreServices.framework in Frameworks */,
+				9B0AE2571D658677002E5777 /* ImageIO.framework in Frameworks */,
+				9B0AE2551D658671002E5777 /* libc++.tbd in Frameworks */,
+				9B0AE2961D6589CD002E5777 /* libcrypto.a in Frameworks */,
+				9B0AE2531D658666002E5777 /* libz.tbd in Frameworks */,
+				9B0AE2991D6589CD002E5777 /* libHyphenateSDK.a in Frameworks */,
+				9B0AE2981D6589CD002E5777 /* libssl.a in Frameworks */,
+				9B0AE2511D65865F002E5777 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9B0AE24F1D658657002E5777 /* libsqlite3.tbd in Frameworks */,
+				9B0AE2971D6589CD002E5777 /* libcurl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0AE1F41D6582DA002E5777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0AE1FF1D6582DA002E5777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0AE1D71D6582DA002E5777 = {
+			isa = PBXGroup;
+			children = (
+				9B0AE1E21D6582DA002E5777 /* EaseUI */,
+				9B0AE2601D6586A5002E5777 /* framework */,
+				9B0AE1FA1D6582DA002E5777 /* EaseUITests */,
+				9B0AE2051D6582DA002E5777 /* EaseUIUITests */,
+				9B0AE1E11D6582DA002E5777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0AE1E11D6582DA002E5777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE1E01D6582DA002E5777 /* EaseUI.app */,
+				9B0AE1F71D6582DA002E5777 /* EaseUITests.xctest */,
+				9B0AE2021D6582DA002E5777 /* EaseUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0AE1E21D6582DA002E5777 /* EaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE29A1D658C8E002E5777 /* General */,
+				9B0AE2611D65870C002E5777 /* Constants */,
+				9B0AE2491D658521002E5777 /* Sections */,
+				9B0AE2141D6584F0002E5777 /* Vendors */,
+				9B0AE1E31D6582DA002E5777 /* AppDelegate.swift */,
+				9B0AE1E51D6582DA002E5777 /* ViewController.swift */,
+				9B0AE1E71D6582DA002E5777 /* Main.storyboard */,
+				9B0AE1ED1D6582DA002E5777 /* Assets.xcassets */,
+				9B0AE1EF1D6582DA002E5777 /* LaunchScreen.storyboard */,
+				9B0AE1F21D6582DA002E5777 /* Info.plist */,
+				9B0AE1EA1D6582DA002E5777 /* EaseUI.xcdatamodeld */,
+				9B0AE2641D65887B002E5777 /* EaseUI-Bridging-Header.h */,
+			);
+			path = EaseUI;
+			sourceTree = "<group>";
+		};
+		9B0AE1FA1D6582DA002E5777 /* EaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE1FB1D6582DA002E5777 /* EaseUITests.swift */,
+				9B0AE1FD1D6582DA002E5777 /* Info.plist */,
+			);
+			path = EaseUITests;
+			sourceTree = "<group>";
+		};
+		9B0AE2051D6582DA002E5777 /* EaseUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE2061D6582DA002E5777 /* EaseUIUITests.swift */,
+				9B0AE2081D6582DA002E5777 /* Info.plist */,
+			);
+			path = EaseUIUITests;
+			sourceTree = "<group>";
+		};
+		9B0AE2141D6584F0002E5777 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE2681D6589CD002E5777 /* HyphenateSDK */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		9B0AE2491D658521002E5777 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE24A1D65852B002E5777 /* ChatViewController.swift */,
+				9B0AE24C1D65854A002E5777 /* MineViewController.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		9B0AE2601D6586A5002E5777 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE25E1D658699002E5777 /* CoreMedia.framework */,
+				9B0AE25C1D658691002E5777 /* AudioToolbox.framework */,
+				9B0AE25A1D658687002E5777 /* AVFoundation.framework */,
+				9B0AE2581D658680002E5777 /* MobileCoreServices.framework */,
+				9B0AE2561D658677002E5777 /* ImageIO.framework */,
+				9B0AE2541D658671002E5777 /* libc++.tbd */,
+				9B0AE2521D658666002E5777 /* libz.tbd */,
+				9B0AE2501D65865F002E5777 /* libstdc++.6.0.9.tbd */,
+				9B0AE24E1D658657002E5777 /* libsqlite3.tbd */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		9B0AE2611D65870C002E5777 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE2621D658725002E5777 /* SdkKeyConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9B0AE2681D6589CD002E5777 /* HyphenateSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE2691D6589CD002E5777 /* include */,
+				9B0AE2901D6589CD002E5777 /* lib */,
+			);
+			path = HyphenateSDK;
+			sourceTree = "<group>";
+		};
+		9B0AE2691D6589CD002E5777 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE26A1D6589CD002E5777 /* EMCallLocalView.h */,
+				9B0AE26B1D6589CD002E5777 /* EMCallManagerDelegate.h */,
+				9B0AE26C1D6589CD002E5777 /* EMCallRemoteView.h */,
+				9B0AE26D1D6589CD002E5777 /* EMCallSession.h */,
+				9B0AE26E1D6589CD002E5777 /* EMChatManagerDelegate.h */,
+				9B0AE26F1D6589CD002E5777 /* EMChatroom.h */,
+				9B0AE2701D6589CD002E5777 /* EMChatroomManagerDelegate.h */,
+				9B0AE2711D6589CD002E5777 /* EMClient+Call.h */,
+				9B0AE2721D6589CD002E5777 /* EMClient.h */,
+				9B0AE2731D6589CD002E5777 /* EMClientDelegate.h */,
+				9B0AE2741D6589CD002E5777 /* EMCmdMessageBody.h */,
+				9B0AE2751D6589CD002E5777 /* EMContactManagerDelegate.h */,
+				9B0AE2761D6589CD002E5777 /* EMConversation.h */,
+				9B0AE2771D6589CD002E5777 /* EMCursorResult.h */,
+				9B0AE2781D6589CD002E5777 /* EMError.h */,
+				9B0AE2791D6589CD002E5777 /* EMErrorCode.h */,
+				9B0AE27A1D6589CD002E5777 /* EMFileMessageBody.h */,
+				9B0AE27B1D6589CD002E5777 /* EMGroup.h */,
+				9B0AE27C1D6589CD002E5777 /* EMGroupManagerDelegate.h */,
+				9B0AE27D1D6589CD002E5777 /* EMGroupOptions.h */,
+				9B0AE27E1D6589CD002E5777 /* EMImageMessageBody.h */,
+				9B0AE27F1D6589CD002E5777 /* EMLocationMessageBody.h */,
+				9B0AE2801D6589CD002E5777 /* EMMessage.h */,
+				9B0AE2811D6589CD002E5777 /* EMMessageBody.h */,
+				9B0AE2821D6589CD002E5777 /* EMOptions+PrivateDeploy.h */,
+				9B0AE2831D6589CD002E5777 /* EMOptions.h */,
+				9B0AE2841D6589CD002E5777 /* EMPushOptions.h */,
+				9B0AE2851D6589CD002E5777 /* EMSDK.h */,
+				9B0AE2861D6589CD002E5777 /* EMSDKFull.h */,
+				9B0AE2871D6589CD002E5777 /* EMTextMessageBody.h */,
+				9B0AE2881D6589CD002E5777 /* EMVideoMessageBody.h */,
+				9B0AE2891D6589CD002E5777 /* EMVoiceMessageBody.h */,
+				9B0AE28A1D6589CD002E5777 /* IEMCallManager.h */,
+				9B0AE28B1D6589CD002E5777 /* IEMChatManager.h */,
+				9B0AE28C1D6589CD002E5777 /* IEMChatroomManager.h */,
+				9B0AE28D1D6589CD002E5777 /* IEMContactManager.h */,
+				9B0AE28E1D6589CD002E5777 /* IEMGroupManager.h */,
+				9B0AE28F1D6589CD002E5777 /* OpenGLView20.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9B0AE2901D6589CD002E5777 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE2911D6589CD002E5777 /* 3rdparty */,
+				9B0AE2951D6589CD002E5777 /* libHyphenateSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9B0AE2911D6589CD002E5777 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE2921D6589CD002E5777 /* libcrypto.a */,
+				9B0AE2931D6589CD002E5777 /* libcurl.a */,
+				9B0AE2941D6589CD002E5777 /* libssl.a */,
+			);
+			path = 3rdparty;
+			sourceTree = "<group>";
+		};
+		9B0AE29A1D658C8E002E5777 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE29B1D658C8E002E5777 /* Extension */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9B0AE29B1D658C8E002E5777 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B0AE29C1D658CD4002E5777 /* AppDelegateExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0AE1DF1D6582DA002E5777 /* EaseUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0AE20B1D6582DA002E5777 /* Build configuration list for PBXNativeTarget "EaseUI" */;
+			buildPhases = (
+				9B0AE1DC1D6582DA002E5777 /* Sources */,
+				9B0AE1DD1D6582DA002E5777 /* Frameworks */,
+				9B0AE1DE1D6582DA002E5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseUI;
+			productName = EaseUI;
+			productReference = 9B0AE1E01D6582DA002E5777 /* EaseUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B0AE1F61D6582DA002E5777 /* EaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0AE20E1D6582DA002E5777 /* Build configuration list for PBXNativeTarget "EaseUITests" */;
+			buildPhases = (
+				9B0AE1F31D6582DA002E5777 /* Sources */,
+				9B0AE1F41D6582DA002E5777 /* Frameworks */,
+				9B0AE1F51D6582DA002E5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0AE1F91D6582DA002E5777 /* PBXTargetDependency */,
+			);
+			name = EaseUITests;
+			productName = EaseUITests;
+			productReference = 9B0AE1F71D6582DA002E5777 /* EaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B0AE2011D6582DA002E5777 /* EaseUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0AE2111D6582DA002E5777 /* Build configuration list for PBXNativeTarget "EaseUIUITests" */;
+			buildPhases = (
+				9B0AE1FE1D6582DA002E5777 /* Sources */,
+				9B0AE1FF1D6582DA002E5777 /* Frameworks */,
+				9B0AE2001D6582DA002E5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0AE2041D6582DA002E5777 /* PBXTargetDependency */,
+			);
+			name = EaseUIUITests;
+			productName = EaseUIUITests;
+			productReference = 9B0AE2021D6582DA002E5777 /* EaseUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0AE1D81D6582DA002E5777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "极客栈";
+				TargetAttributes = {
+					9B0AE1DF1D6582DA002E5777 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9B0AE1F61D6582DA002E5777 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9B0AE1DF1D6582DA002E5777;
+					};
+					9B0AE2011D6582DA002E5777 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9B0AE1DF1D6582DA002E5777;
+					};
+				};
+			};
+			buildConfigurationList = 9B0AE1DB1D6582DA002E5777 /* Build configuration list for PBXProject "EaseUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0AE1D71D6582DA002E5777;
+			productRefGroup = 9B0AE1E11D6582DA002E5777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0AE1DF1D6582DA002E5777 /* EaseUI */,
+				9B0AE1F61D6582DA002E5777 /* EaseUITests */,
+				9B0AE2011D6582DA002E5777 /* EaseUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0AE1DE1D6582DA002E5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0AE1F11D6582DA002E5777 /* LaunchScreen.storyboard in Resources */,
+				9B0AE1EE1D6582DA002E5777 /* Assets.xcassets in Resources */,
+				9B0AE1E91D6582DA002E5777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0AE1F51D6582DA002E5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0AE2001D6582DA002E5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0AE1DC1D6582DA002E5777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0AE2631D658725002E5777 /* SdkKeyConstants.swift in Sources */,
+				9B0AE1EC1D6582DA002E5777 /* EaseUI.xcdatamodeld in Sources */,
+				9B0AE1E61D6582DA002E5777 /* ViewController.swift in Sources */,
+				9B0AE24B1D65852B002E5777 /* ChatViewController.swift in Sources */,
+				9B0AE1E41D6582DA002E5777 /* AppDelegate.swift in Sources */,
+				9B0AE24D1D65854A002E5777 /* MineViewController.swift in Sources */,
+				9B0AE29D1D658CD4002E5777 /* AppDelegateExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0AE1F31D6582DA002E5777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0AE1FC1D6582DA002E5777 /* EaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0AE1FE1D6582DA002E5777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0AE2071D6582DA002E5777 /* EaseUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B0AE1F91D6582DA002E5777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0AE1DF1D6582DA002E5777 /* EaseUI */;
+			targetProxy = 9B0AE1F81D6582DA002E5777 /* PBXContainerItemProxy */;
+		};
+		9B0AE2041D6582DA002E5777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0AE1DF1D6582DA002E5777 /* EaseUI */;
+			targetProxy = 9B0AE2031D6582DA002E5777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B0AE1E71D6582DA002E5777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0AE1E81D6582DA002E5777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B0AE1EF1D6582DA002E5777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0AE1F01D6582DA002E5777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0AE2091D6582DA002E5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B0AE20A1D6582DA002E5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0AE20C1D6582DA002E5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EaseUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EaseUI/Vendors/HyphenateSDK/lib/3rdparty",
+					"$(PROJECT_DIR)/EaseUI/Vendors/HyphenateSDK/lib",
+				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codinghacker.EaseUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EaseUI/EaseUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B0AE20D1D6582DA002E5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EaseUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EaseUI/Vendors/HyphenateSDK/lib/3rdparty",
+					"$(PROJECT_DIR)/EaseUI/Vendors/HyphenateSDK/lib",
+				);
+				OTHER_SWIFT_FLAGS = "-D RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codinghacker.EaseUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EaseUI/EaseUI-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9B0AE20F1D6582DA002E5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codinghacker.EaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EaseUI.app/EaseUI";
+			};
+			name = Debug;
+		};
+		9B0AE2101D6582DA002E5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codinghacker.EaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EaseUI.app/EaseUI";
+			};
+			name = Release;
+		};
+		9B0AE2121D6582DA002E5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EaseUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codinghacker.EaseUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EaseUI;
+			};
+			name = Debug;
+		};
+		9B0AE2131D6582DA002E5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EaseUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codinghacker.EaseUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EaseUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0AE1DB1D6582DA002E5777 /* Build configuration list for PBXProject "EaseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0AE2091D6582DA002E5777 /* Debug */,
+				9B0AE20A1D6582DA002E5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0AE20B1D6582DA002E5777 /* Build configuration list for PBXNativeTarget "EaseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0AE20C1D6582DA002E5777 /* Debug */,
+				9B0AE20D1D6582DA002E5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B0AE20E1D6582DA002E5777 /* Build configuration list for PBXNativeTarget "EaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0AE20F1D6582DA002E5777 /* Debug */,
+				9B0AE2101D6582DA002E5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B0AE2111D6582DA002E5777 /* Build configuration list for PBXNativeTarget "EaseUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0AE2121D6582DA002E5777 /* Debug */,
+				9B0AE2131D6582DA002E5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B0AE1EA1D6582DA002E5777 /* EaseUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B0AE1EB1D6582DA002E5777 /* EaseUI.xcdatamodel */,
+			);
+			currentVersion = 9B0AE1EB1D6582DA002E5777 /* EaseUI.xcdatamodel */;
+			path = EaseUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B0AE1D81D6582DA002E5777 /* Project object */;
+}

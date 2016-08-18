@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EaseUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="F40-a8-hhj">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" id="PUn-nn-Nh4" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="efW-pb-rTF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CrL-2a-UjV" kind="relationship" relationship="viewControllers" id="uHt-Q6-5cp"/>
+                        <segue destination="6Or-GB-irq" kind="relationship" relationship="viewControllers" id="CWl-1N-s5A"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sfg-ms-W8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91.5" y="1762.5"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="eVD-fq-5ht">
+            <objects>
+                <navigationController id="6Or-GB-irq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" id="aE4-2M-7i6"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="7ri-pL-nqH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zU7-7e-W4U" kind="relationship" relationship="rootViewController" id="Hbb-M0-Hld"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdV-vh-QKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622.5" y="2164.5"/>
+        </scene>
+        <!--Mine View Controller-->
+        <scene sceneID="rv5-IA-Kmp">
+            <objects>
+                <viewController storyboardIdentifier="MineViewController" id="zU7-7e-W4U" customClass="MineViewController" customModule="EaseUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hh1-dW-dAl"/>
+                        <viewControllerLayoutGuide type="bottom" id="12d-UV-mZG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XhK-l6-cnj">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ja7-St-3HO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Bb-zK-F4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1065.5" y="2164.5"/>
+        </scene>
+        <!--聊天-->
+        <scene sceneID="Lvg-D3-gnx">
+            <objects>
+                <navigationController id="CrL-2a-UjV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="聊天" id="Gcl-1v-lnH"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ENq-oT-SbI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lA5-fZ-p7r" kind="relationship" relationship="rootViewController" id="S9B-Ta-8db"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SjS-qb-uBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622.5" y="1401.5"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="4Cr-kO-SPg">
+            <objects>
+                <viewController storyboardIdentifier="ChatViewController" id="lA5-fZ-p7r" customClass="ChatViewController" customModule="EaseUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xti-RJ-HgZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="9s3-vh-1aL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cza-jV-0m1">
+                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DD9-xo-3JU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7y-SG-918" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1065.5" y="1401.5"/>
+        </scene>
+    </scenes>
+</document>
